@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<typelist
+  xmlns="http://guidewire.com/typelists"
+  desc="The accident scenario images have red and blue vehicles. Based on which vehicle the user selects, other values are set from the AccidentDiagramDataPEL entity"
+  name="AccidentScenarioInsVehPEL">
+  <typecode
+    code="blue"
+    desc="Blue vehicle"
+    name="Blue"
+    priority="1"/>
+  <typecode
+    code="red"
+    desc="Red vehicle"
+    name="Red"
+    priority="2"/>
+  <typecode
+    code="unknown"
+    desc="Unknown"
+    name="Unknown"
+    priority="3"/>
+</typelist>

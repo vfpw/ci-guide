@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!-- added for Injury Details -->
+<entity xmlns="http://guidewire.com/datamodel" desc="Individual injury points on a person" entity="BodilyInjuryPoint_Ext" exportable="true" platform="false"
+				table="BodilyInjuryPoint_Ext" type="versionable">
+	<implementsEntity name="Extractable" />
+	<typekey desc="The Point on a person that got injured" name="injuryPoint" nullok="true" typelist="BodilyInjuryPoints_Ext" />
+	<typekey desc="The severity of the injury point" name="injurySeverity" nullok="true" typelist="BodilyInjurySeverity_EXT" />
+	<column desc="Comment" name="bodilyInjuryComment" nullok="true" type="varchar">
+		<columnParam name="size" value="200" />
+	</column>
+	<foreignkey fkentity="InjuryIncident" name="injuredParty" nullok="true" />
+</entity>

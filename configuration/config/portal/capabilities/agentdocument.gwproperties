@@ -1,0 +1,4 @@
+httphandlers.claimDocument=edge.capabilities.document.DocumentRetrievalHandler
+httphandlers.claimDocument.contentPlugin=edge.capabilities.claim.document.ClaimDocumentHandler
+
+http.authorizer=edge.servlet.security.NoAuthoritiesHttpRequestUserIdentityPlugin

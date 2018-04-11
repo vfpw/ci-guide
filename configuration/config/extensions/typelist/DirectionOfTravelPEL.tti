@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<typelist
+  xmlns="http://guidewire.com/typelists"
+  desc="High level categorization of the general direction of travel"
+  name="DirectionOfTravelPEL"
+  tableName="DirectionOfTravelPEL">
+  <typecode
+    code="same_direction_1_lane"
+    desc="Vehicles travelling in the same direction in one lane of traffic"
+    name="Same direction - 1 lane"
+    priority="1"/>
+  <typecode
+    code="same_direction_2_lanes"
+    desc="Vehicles travelling in the same direction in two different lanes of traffic"
+    name="Same direction - 2 lanes"
+    priority="2"/>
+  <typecode
+    code="opposite_direction"
+    desc="Vehicles travelling in opposite direction"
+    name="Opposite direction"
+    priority="3"/>
+  <typecode
+    code="side_roads"
+    desc="Vehicles entering from side road/crossroads"
+    name="Entering from side road or X-roads"
+    priority="4"/>
+  <typecode
+    code="other_cases"
+    desc="Other cases"
+    name="Other cases"
+    priority="5"/>
+</typelist>

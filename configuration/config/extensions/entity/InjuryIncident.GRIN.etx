@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<extension
+  xmlns="http://guidewire.com/datamodel"
+  entityName="InjuryIncident">
+  <!-- Next entry is for Graphical Injury Description -->
+  <array arrayentity="BodilyInjuryPoint_Ext"
+         arrayfield="injuredParty"
+         desc="Array of the Injury Points on the person" exportable="true" name="InjuryPoints_Ext" owner="true" />
+</extension>

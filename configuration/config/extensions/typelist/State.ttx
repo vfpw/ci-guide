@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<typelistextension
+  xmlns="http://guidewire.com/typelists"
+  name="State">
+  <typecode
+    code="PR"
+    desc="PARANA"
+    name="PARANA">
+    <category
+      code="US"
+      typelist="Country"/>
+    <category
+      code="BR"
+      typelist="Country"/>
+  </typecode>
+</typelistextension>

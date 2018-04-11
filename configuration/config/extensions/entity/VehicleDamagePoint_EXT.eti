@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<!-- DT add  vehicle damage diagram -->
+<entity xmlns="http://guidewire.com/datamodel" desc="Individual Damage points on a vehicle" entity="VehicleDamagePoint_Ext" exportable="true" platform="false"
+				table="VehicleDamagePoint_Ext" type="versionable">
+	<implementsEntity name="Extractable" />
+	<typekey desc="The Point on a vehicle that got damaged" name="damagePoint" nullok="true" typelist="VehicleDamagePoints_EXT" />
+	<column default="false" desc="If the part is damaged" name="isDamaged"
+					nullok="false"
+					type="bit" />
+	<foreignkey fkentity="VehicleIncident" name="vechicle" nullok="true" />
+</entity>

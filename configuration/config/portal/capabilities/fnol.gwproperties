@@ -1,0 +1,6 @@
+handlers.policy=edge.capabilities.claim.fnol.policy.PolicySearchHandler
+handlers.fnol=edge.capabilities.claim.fnol.FnolHandler
+
+fnol.lob.PersonalAuto=edge.capabilities.claim.lob.impl.personalauto.fnol.PAFnolPlugin
+fnol.lob.Homeowners=edge.capabilities.claim.lob.impl.homeowners.fnol.HOFnolPlugin
+

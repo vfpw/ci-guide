@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<Entity
+  name="SpecialistService">
+  <Columns>
+    <Column
+      beanPath="SpecialistService.Name"
+      name="Name"/>
+    <Column
+      beanPath="SpecialistService.Name_pt"
+      name="Name_pt"/>
+  </Columns>
+  <DisplayName><![CDATA[if (Name_pt != null) {
+  return Name_pt
+}else{
+  return Name
+}]]></DisplayName>
+</Entity>

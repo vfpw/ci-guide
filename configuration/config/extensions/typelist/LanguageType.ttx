@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><!-- This file only exists in order to force code generation of this object in this module --><typelistextension xmlns="http://guidewire.com/typelists" name="LanguageType">
+  <typecode code="en_US_edg" desc="Edge English (US)" name="Edge English (US)"/>
+</typelistextension>

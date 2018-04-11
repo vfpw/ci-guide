@@ -1,0 +1,5 @@
+handlers.servicerequest=edge.capabilities.servicerequest.ServiceRequestHandler
+handlers.docs=edge.capabilities.servicerequest.document.ServiceRequestDocumentHandler
+handlers.docupload=edge.capabilities.servicerequest.document.ServiceRequestFileUploadHandler
+httphandlers.servicerequestDocument=edge.capabilities.document.DocumentRetrievalHandler
+httphandlers.servicerequestDocument.contentPlugin=edge.capabilities.servicerequest.document.ServiceRequestDocumentHandler

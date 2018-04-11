@@ -1,0 +1,66 @@
+<?xml version="1.0"?>
+<typelist
+  xmlns="http://guidewire.com/typelists"
+  desc="General circumstances of the accident"
+  name="AccidentCircumstancePEL">
+  <typecode
+    code="collision"
+    desc="Collision between vehicles in the same lane of traffic"
+    name="Collision between vehicles in the same lane of traffic"/>
+  <typecode
+    code="turning_at_lights"
+    desc="Turning at traffic lights"
+    name="Turning at traffic lights"/>
+  <typecode
+    code="reversing_or_u_turn"
+    desc="Reversing or U turn"
+    name="Reversing or U turn"/>
+  <typecode
+    code="door"
+    desc="Opening a door"
+    name="Opening a door"/>
+  <typecode
+    code="chain_reaction"
+    desc="Chain reaction"
+    name="Chain reaction"/>
+  <typecode
+    code="pileup"
+    desc="Pile-up"
+    name="Pile-up"/>
+  <typecode
+    code="car_park"
+    desc="Car Parks"
+    name="Car Parks"/>
+  <typecode
+    code="turning_onto_roadway"
+    desc="Vehicle turning into a side roadway or driveway"
+    name="Vehicle turning into a side roadway or driveway"/>
+  <typecode
+    code="parking"
+    desc="Parking situations (not in a car park)"
+    name="Parking situations (Non Car Park))"/>
+  <typecode
+    code="side_collision"
+    desc="Side collision"
+    name="Side collision"/>
+  <typecode
+    code="lane_change"
+    desc="Lane change"
+    name="Lane change"/>
+  <typecode
+    code="passing"
+    desc="Passing a vehicle"
+    name="Passing a vehicle"/>
+  <typecode
+    code="encroachment"
+    desc="Vehicle encroachment"
+    name="Vehicle encroachment"/>
+  <typecode
+    code="intersections"
+    desc="Intersections"
+    name="Intersections"/>
+  <typecode
+    code="failure_to_obey_signs"
+    desc="Failure to obey signs or signals"
+    name="Failure to obey signs or signals"/>
+</typelist>

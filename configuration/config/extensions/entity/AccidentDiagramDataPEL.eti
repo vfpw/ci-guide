@@ -1,0 +1,18 @@
+<entity desc="Lookup table with accident scenarios and their properties" entity="AccidentDiagramDataPEL" exportable="true" platform="false" table="accidentdiagramdatapel" type="retireable">
+  <!--<implementsEntity name="AdminTable"/>	-->
+  <typekey desc="Description of the accident scenario" name="AccidentDetail" nullok="false" typelist="AccidentDetailPEL"/>
+  <typekey desc="General direction of travel" name="DirectionOfTravel" nullok="false" typelist="DirectionOfTravelPEL"/>
+  <typekey desc="General circumstances of the accident" name="AccidentCircumstance" nullok="false" typelist="AccidentCircumstancePEL"/>
+  <column desc="Indicates if this scenario can occur during parking" name="Parking" nullok="true" type="bit"/>
+  <column desc="Indicates if this scenario can occur at an intersection" nullok="true" name="Intersection" type="bit"/>
+  <column desc="Indicates if this scenario can occur at a roundabout" nullok="true" name="Roundabout" type="bit"/>
+  <column desc="Indicates if this scenario can occur while turning" nullok="true" name="Turning" type="bit"/>
+  <column desc="Indicates if this scenario can occur during lane change" nullok="true" name="LaneChange" type="bit"/>
+  <column desc="Fault percent of the red car" name="RedCarFaultPercentage"
+          nullok="false"
+          type="percentagedec"/>
+  <column desc="Fault percent of the green car" name="BlueCarFaultPercentage"
+          nullok="false"
+          type="percentagedec"/>
+
+  </entity>

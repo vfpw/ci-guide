@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><extension xmlns="http://guidewire.com/datamodel" entityName="PolicySummary">
+  <column desc="Code of the Agency that sold the policy" name="ProducerCodeCode" nullok="true" type="shorttext"/>
+  <column desc="Account number" name="AccountNumber" nullok="true" type="shorttext"/>
+</extension>

@@ -1,0 +1,12 @@
+handlers.claim=edge.capabilities.claim.ClaimHandler
+handlers.activity=edge.capabilities.claim.activity.ActivityHandler
+handlers.docs=edge.capabilities.claim.document.ClaimDocumentHandler
+handlers.docupload=edge.capabilities.claim.document.ClaimDocumentUploadHandler
+
+claimdetails.lob.PersonalAuto=edge.capabilities.claim.lob.impl.personalauto.claimdetail.PAClaimDetailPlugin
+claimdetails.lob.Homeowner=edge.capabilities.claim.lob.impl.homeowners.claimdetail.HOClaimDetailPlugin
+
+policy.lob.PersonalAuto=edge.capabilities.claim.lob.impl.personalauto.policy.PAPolicyPlugin
+policy.lob.Homeowner=edge.capabilities.claim.lob.impl.homeowners.policy.HOPolicyPlugin
+
+

@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<extension
+  xmlns="http://guidewire.com/datamodel"
+  entityName="VehicleIncident">
+	<array arrayentity="VehicleDamagePoint_Ext" desc="Array of the Damage Points on the vehicle" exportable="true" name="DamagePoints_Ext" owner="true" />
+</extension>
